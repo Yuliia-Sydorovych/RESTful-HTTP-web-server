@@ -1,0 +1,24 @@
+{
+  "name": "restful_http_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "dev": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.10",
+    "lite-server": "^2.6.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
